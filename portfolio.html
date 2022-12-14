@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+<meta charset="UTF-8">
+<title>Matthew Leslie</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<link rel="stylesheet" type="text/css" href="Stylesheet.css">
+<script src="https://kit.fontawesome.com/44e1a84b0a.js" crossorigin="anonymous"></script>
+<script> myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</head>
+
+
+    <body> 
+<div class="topnav" id="navbar">
+  <a href="#home" class="active">Home</a>
+  <a href="#aboutme">About me</a>
+  <a href="#projects">Work</a>
+  <a href="#contact">Contact me</a>
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+<script>
+  function myFunction() {
+    var x = document.getElementById("navbar");
+    if (x.className === "topnav") {
+      x.className += " responsive";
+    } else {
+      x.className = "topnav";
+    }
+  }
+  </script>
+
+<div class="bg-image"></div>
+
+    <div class="bg-text" id="home"> 
+        <h1>Matthew Leslie</h1>
+        <p>Software Engineer</p>
+        <a href="https://matthewleslieresume.tiiny.site/" target="_blank" download>
+        <button type="button" id="mybutton">Download my resume!</button>
+      </a>
+    </div>
+
+    <div class="aboutme" id="aboutme">
+      <h2 id="head-about">About me</h2>
+        <h3 id="how-i-came">How I got here?</h3>
+        <p id="explain">I am an English national who moved to Canada in October, 2022. I initially came to work in a <a id="camp" href="https://www.campwalden.ca/"> summer 
+          camp</a> in 2021, then the following year I worked in the same summer camp and decided I knew I wanted to stay. I then worked in a <a id="robinhood" href="https://www.camprobinhood.ca/"> day camp in the fall.</a></p>
+          <h3 id="how-i-came">My background:</h3>
+          <p id="explain">I went to a <a id="school" href="https://thestudioliverpool.uk/">technology based high school</a>, this was my first introduction to programming and tought me about computers, why they are important and the things you can do if you know different programming languages.
+          However, after high school, I pursued another passion of mine; law. I had dreamt of being a human rights lawyer since I visited Pakistan when I was a child. I did have a great passion for computers, which never left, I continued building, fixing and using computers. When I decided to move to Canada, I was still in law school but I knew 
+        I wanted to be here and even though I was about to be in my final year, I decided to take the leap and move. In this venture, I started teaching myself HTML, CSS, Javascript and Python as a hobby, this allowed me to continue learning, albeit not law, but something else I was passionate about. After some time, I decided to look into bootcamp options since programming was something I was enjoying more and more which lead me to finding <a id="bootcamp" href="https://brainstation.io/">BrainStation</a> an intensive 12 week, fullstack course.</p>
+
+
+      </div>
+
+      <div class="projects" id="projects">
+          <h2>Projects I have built</h2>
+      </div>
+
+
+
+      <div class="contact" id="contact">
+          <h2>Get in touch</h2>
+          <p id="location"><i class="fa fa-map-marker fa-fw w3-xxlarge w3-margin-right"></i> Toronto, CA</p>
+    <p id="phone"><i class="fa fa-phone fa-fw w3-xxlarge w3-margin-right"></i> Phone: <a href="tel:5143479305">+1 514-347-9305</a></p>
+    <p id="email"><i class="fa fa-envelope fa-fw w3-xxlarge w3-margin-right" ></i>Email: <a href="mailto:matthewleslie155@gmail.com">matthewleslie155@gmail.com</a></p>
+      </div>
+
+</body>
+</html>
